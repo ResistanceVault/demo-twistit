@@ -1,0 +1,8 @@
+; hack to keep the linker happy since we're excluding most SMP stuff for size reasons
+
+.segment "LIBSFX_SMP"
+.export SMP_Burst, SMP_Burst_END, SMP_SetDSP, SMP_SetDSP_END
+SMP_Burst:
+SMP_Burst_END:
+SMP_SetDSP:
+SMP_SetDSP_END:

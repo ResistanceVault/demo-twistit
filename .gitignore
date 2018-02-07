@@ -1,0 +1,13 @@
+.build
+.build_libsfx
+*.sfc
+*.pyc
+*.sym
+*.dsym
+*.bp
+*.log
+data/*.bin
+data/*.map
+data/*.palette
+data/*.tiles
+data/*.lz4

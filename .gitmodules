@@ -1,0 +1,3 @@
+[submodule "libSFX"]
+	path = libSFX
+	url = https://github.com/optiroc/libSFX
